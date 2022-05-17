@@ -167,10 +167,10 @@ to-report prop-uninfected
 end
 @#$#@#$#@
 GRAPHICS-WINDOW
-358
-102
-985
-730
+243
+33
+870
+661
 -1
 -1
 12.14
@@ -194,10 +194,10 @@ ticks
 30.0
 
 BUTTON
-47
-22
-167
-88
+46
+51
+152
+106
 NIL
 setup
 NIL
@@ -211,10 +211,10 @@ NIL
 1
 
 BUTTON
-48
-174
-168
-236
+45
+173
+152
+227
 go
 step
 T
@@ -228,10 +228,10 @@ NIL
 1
 
 SLIDER
-22
-263
-195
-296
+21
+241
+194
+274
 init-population
 init-population
 1
@@ -243,10 +243,10 @@ NIL
 HORIZONTAL
 
 SLIDER
-21
-301
-194
-334
+20
+279
+193
+312
 init-infected
 init-infected
 1
@@ -258,40 +258,40 @@ NIL
 HORIZONTAL
 
 SLIDER
-22
-340
-209
-373
+21
+318
+208
+351
 transmission-rate
 transmission-rate
 1
 100
-82.0
+70.0
 1
 1
 %
 HORIZONTAL
 
 SLIDER
-22
-416
-195
-449
+21
+394
+194
+427
 mobility
 mobility
 0
 10
-1.0
+3.0
 .1
 1
 NIL
 HORIZONTAL
 
 PLOT
-1097
-203
-1473
-522
+879
+38
+1358
+453
 infection
 time
 proportion infected
@@ -309,25 +309,25 @@ PENS
 "health care capacity" 1.0 0 -955883 true "" "plot healthcare-capacity / 100"
 
 SLIDER
-22
-453
-194
-486
+21
+431
+193
+464
 recovery-rate
 recovery-rate
 1
 100
-10.0
+15.0
 1
 1
 %
 HORIZONTAL
 
 MONITOR
-1483
-204
-1617
-249
+1368
+135
+1502
+180
 NIL
 max-infected-prop
 5
@@ -335,10 +335,10 @@ max-infected-prop
 11
 
 MONITOR
-1483
-253
-1617
-298
+1368
+184
+1502
+229
 NIL
 prop-uninfected
 17
@@ -346,25 +346,25 @@ prop-uninfected
 11
 
 SLIDER
-22
-378
-194
-411
+21
+356
+193
+389
 stationary
 stationary
 0
 1000
-631.0
+0.0
 1
 1
 NIL
 HORIZONTAL
 
 SLIDER
-22
-493
-194
-526
+21
+471
+193
+504
 init-vaccinated
 init-vaccinated
 0
@@ -376,25 +376,25 @@ NIL
 HORIZONTAL
 
 SLIDER
-21
-533
-209
-566
+20
+511
+208
+544
 quarantine-effort
 quarantine-effort
-1
+0
 100
-1.0
+0.0
 1
 1
 %
 HORIZONTAL
 
 SLIDER
-12
-696
-216
-729
+17
+601
+221
+634
 healthcare-capacity
 healthcare-capacity
 0
@@ -406,10 +406,10 @@ healthcare-capacity
 HORIZONTAL
 
 SLIDER
-13
-733
-205
-766
+18
+638
+210
+671
 infected-mortality
 infected-mortality
 0
@@ -421,10 +421,10 @@ infected-mortality
 HORIZONTAL
 
 MONITOR
-1483
-305
-1552
-350
+1368
+236
+1437
+281
 NIL
 num-dead
 17
@@ -432,10 +432,10 @@ num-dead
 11
 
 MONITOR
-1557
-305
-1628
-350
+1442
+236
+1513
+281
 NIL
 population
 17
@@ -443,10 +443,10 @@ population
 11
 
 PLOT
-1096
-526
-1474
-676
+879
+457
+1359
+634
 number died
 time
 number died
@@ -461,10 +461,10 @@ PENS
 "default" 1.0 0 -16777216 true "" "plot num-dead"
 
 BUTTON
-49
-100
-168
-160
+45
+112
+151
+164
 NIL
 step
 NIL
@@ -478,15 +478,15 @@ NIL
 1
 
 SLIDER
-21
-573
-198
-606
+20
+551
+197
+584
 vaccination-rate
 vaccination-rate
 0
 100
-5.0
+15.0
 1
 1
 %
